@@ -38,7 +38,7 @@ Make sure you have **Python** installed on your system. Then, follow these steps
 - **Random & String Library**  
 
 ## **Screenshots**  
-(You can add screenshots of your app here)  
+![alt text](image.png) 
 
 ## **Contributing**  
 Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements.  
