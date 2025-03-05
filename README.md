@@ -1,7 +1,3 @@
-Here’s a professional **README.md** file for your password generator project:  
-
----
-
 # **Password Generator**  
 
 A simple and interactive password generator built using **Streamlit**. Users can customize the password length and choose to include digits and special characters. Generates secure passwords instantly with a user-friendly interface.  
