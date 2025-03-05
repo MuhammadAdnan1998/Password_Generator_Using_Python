@@ -1,16 +1,18 @@
-import streamlit as st
-import random
-import string
+import streamlit as st # Importing Streamlit Library for creating web app
+import random # Importing Random Library to generate random password
+import string # Importing String Library to get all letters, digits and special characters
 
+# Function to generate password based on user's preferences 
 def generate_password(length,use_digits,use_special):
-    characters = string.ascii_letters
+    characters = string.ascii_letters # Include all letters (a-z, A-Z)
 
     if use_digits:
-        characters += string.digits #Adds numbers (0-9) if selected
+        characters += string.digits # Adds numbers (0-9) if selected
 
     if use_special:
-        characters += string.punctuation #Adds special characters (!,@,#,$,%,^,&,*)
+        characters += string.punctuation # Adds special characters (!,@,#,$,%,^,&,*)
 
+    # Generates a random password of the specified length using the characters defined above
     return ''.join(random.choice(characters) for _ in range(length))
 
 st.title("Password Generator")
